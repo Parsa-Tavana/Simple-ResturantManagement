@@ -1,0 +1,872 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\clientapp\\src\\pages\\restaurantmenu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\clientapp\\src\\pages\\restaurantmenu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\clientapp\\src\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\clientapp\\src\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\ordermanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\ordermanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\clientapp\\src\\auth\\authcontext.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\clientapp\\src\\auth\\authcontext.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\clientapp\\src\\pages\\restaurants.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\clientapp\\src\\pages\\restaurants.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\repositories\\restaurantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\repositories\\restaurantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\repositories\\menuitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\repositories\\menuitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\clientapp\\src\\pages\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\clientapp\\src\\pages\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\clientapp\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\clientapp\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\clientapp\\src\\auth\\protectedroute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\clientapp\\src\\auth\\protectedroute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\clientapp\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\clientapp\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\clientapp\\src\\pages\\forbidden.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\clientapp\\src\\pages\\forbidden.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\clientapp\\src\\pages\\customers.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\clientapp\\src\\pages\\customers.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\dtos\\createcheckoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\dtos\\createcheckoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\clientapp\\src\\pages\\orders.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\clientapp\\src\\pages\\orders.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\clientapp\\src\\pages\\checkoutcancel.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\clientapp\\src\\pages\\checkoutcancel.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\clientapp\\src\\pages\\checkoutsuccess.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\clientapp\\src\\pages\\checkoutsuccess.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\dtos\\authenticationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\dtos\\authenticationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\dtos\\customerdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\dtos\\customerdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\dtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\dtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\dtos\\menuitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\dtos\\menuitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\clientapp\\src\\pages\\register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\clientapp\\src\\pages\\register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\ordermanagement.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\ordermanagement.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\models\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\models\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\services\\restaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\services\\restaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\clientapp\\src\\components\\swiperow.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\clientapp\\src\\components\\swiperow.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\clientapp\\src\\utils\\status.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\clientapp\\src\\utils\\status.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\repositories\\imenuitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\repositories\\imenuitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\clientapp\\src\\components\\ui.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\clientapp\\src\\components\\ui.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|c:\\users\\tavana\\downloads\\ordermanagement_with_customers_restaurants_v2\\ordermanagement\\ordermanagement\\clientapp\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AEDE82D4-C6F8-4070-B04B-C868A7314A03}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\clientapp\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "OrderManagement\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T06:52:57.707Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "OrderManagement\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAiwIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T07:57:01.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Program.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Program.cs*",
+              "RelativeToolTip": "OrderManagement\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:14:46.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RestaurantMenu.jsx",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\pages\\RestaurantMenu.jsx",
+              "RelativeDocumentMoniker": "OrderManagement\\ClientApp\\src\\pages\\RestaurantMenu.jsx",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\pages\\RestaurantMenu.jsx",
+              "RelativeToolTip": "OrderManagement\\ClientApp\\src\\pages\\RestaurantMenu.jsx",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAANEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-18T06:19:26.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "OrderManagement\\appsettings.json",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\appsettings.json",
+              "RelativeToolTip": "OrderManagement\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-16T14:16:42.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "OrderManagement\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\appsettings.Development.json",
+              "RelativeToolTip": "OrderManagement\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-22T07:30:12.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderManagement.csproj",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\OrderManagement.csproj",
+              "RelativeDocumentMoniker": "OrderManagement\\OrderManagement.csproj",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\OrderManagement.csproj",
+              "RelativeToolTip": "OrderManagement\\OrderManagement.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-20T06:54:19.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "api.js",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\api.js",
+              "RelativeDocumentMoniker": "OrderManagement\\ClientApp\\src\\api.js",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\api.js",
+              "RelativeToolTip": "OrderManagement\\ClientApp\\src\\api.js",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAmwIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-15T10:33:54.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthContext.jsx",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\auth\\AuthContext.jsx",
+              "RelativeDocumentMoniker": "OrderManagement\\ClientApp\\src\\auth\\AuthContext.jsx",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\auth\\AuthContext.jsx",
+              "RelativeToolTip": "OrderManagement\\ClientApp\\src\\auth\\AuthContext.jsx",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAAAN0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-22T10:10:34.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "OrderManagement\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T13:49:17.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Models\\Customer.cs",
+              "RelativeToolTip": "OrderManagement\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T06:37:41.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "OrderManagement\\Controllers\\PaymentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T07:48:19.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RestaurantsController.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Controllers\\RestaurantsController.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Controllers\\RestaurantsController.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Controllers\\RestaurantsController.cs",
+              "RelativeToolTip": "OrderManagement\\Controllers\\RestaurantsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T13:48:56.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "OrderManagement\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T11:57:13.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Restaurants.jsx",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\pages\\Restaurants.jsx",
+              "RelativeDocumentMoniker": "OrderManagement\\ClientApp\\src\\pages\\Restaurants.jsx",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\pages\\Restaurants.jsx",
+              "RelativeToolTip": "OrderManagement\\ClientApp\\src\\pages\\Restaurants.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-18T06:27:42.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Repositories\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Repositories\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Repositories\\ICustomerRepository.cs",
+              "RelativeToolTip": "OrderManagement\\Repositories\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T07:40:14.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Services\\OrderService.cs",
+              "RelativeToolTip": "OrderManagement\\Services\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T14:44:31.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "OrderManagement\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T07:40:19.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RestaurantRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Repositories\\RestaurantRepository.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Repositories\\RestaurantRepository.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Repositories\\RestaurantRepository.cs",
+              "RelativeToolTip": "OrderManagement\\Repositories\\RestaurantRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T07:52:02.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Services\\CustomerService.cs",
+              "RelativeToolTip": "OrderManagement\\Services\\CustomerService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T07:54:27.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MenuItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Repositories\\MenuItemRepository.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Repositories\\MenuItemRepository.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Repositories\\MenuItemRepository.cs",
+              "RelativeToolTip": "OrderManagement\\Repositories\\MenuItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T15:29:29.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "OrderManagement\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T15:25:22.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "OrderManagement\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwBkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:32:28.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\main.jsx",
+              "RelativeDocumentMoniker": "OrderManagement\\ClientApp\\src\\main.jsx",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\main.jsx",
+              "RelativeToolTip": "OrderManagement\\ClientApp\\src\\main.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-18T06:28:14.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProtectedRoute.jsx",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\auth\\ProtectedRoute.jsx",
+              "RelativeDocumentMoniker": "OrderManagement\\ClientApp\\src\\auth\\ProtectedRoute.jsx",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\auth\\ProtectedRoute.jsx",
+              "RelativeToolTip": "OrderManagement\\ClientApp\\src\\auth\\ProtectedRoute.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-24T15:52:31.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Login.jsx",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\pages\\Login.jsx",
+              "RelativeDocumentMoniker": "OrderManagement\\ClientApp\\src\\pages\\Login.jsx",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\pages\\Login.jsx",
+              "RelativeToolTip": "OrderManagement\\ClientApp\\src\\pages\\Login.jsx",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-18T08:16:29.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\App.jsx",
+              "RelativeDocumentMoniker": "OrderManagement\\ClientApp\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\App.jsx",
+              "RelativeToolTip": "OrderManagement\\ClientApp\\src\\App.jsx",
+              "ViewState": "AgIAAHUAAAAAAAAAAAA+wJoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-17T16:09:03.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Customers.jsx",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\pages\\Customers.jsx",
+              "RelativeDocumentMoniker": "OrderManagement\\ClientApp\\src\\pages\\Customers.jsx",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\pages\\Customers.jsx",
+              "RelativeToolTip": "OrderManagement\\ClientApp\\src\\pages\\Customers.jsx",
+              "ViewState": "AgIAACQAAAAAAAAAAAAuwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-24T15:50:59.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Forbidden.jsx",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\pages\\Forbidden.jsx",
+              "RelativeDocumentMoniker": "OrderManagement\\ClientApp\\src\\pages\\Forbidden.jsx",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\pages\\Forbidden.jsx",
+              "RelativeToolTip": "OrderManagement\\ClientApp\\src\\pages\\Forbidden.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-24T15:53:31.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Controllers\\MenuController.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "OrderManagement\\Controllers\\MenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T15:58:58.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Models\\Order.cs",
+              "RelativeToolTip": "OrderManagement\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T15:24:31.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreateCheckoutDto.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\DTOs\\CreateCheckoutDto.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\DTOs\\CreateCheckoutDto.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\DTOs\\CreateCheckoutDto.cs",
+              "RelativeToolTip": "OrderManagement\\DTOs\\CreateCheckoutDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T13:47:12.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Orders.jsx",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\pages\\Orders.jsx",
+              "RelativeDocumentMoniker": "OrderManagement\\ClientApp\\src\\pages\\Orders.jsx",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\pages\\Orders.jsx",
+              "RelativeToolTip": "OrderManagement\\ClientApp\\src\\pages\\Orders.jsx",
+              "ViewState": "AgIAAKoBAAAAAAAAAAAowMIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-15T08:30:15.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Models\\OrderItem.cs",
+              "RelativeToolTip": "OrderManagement\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T15:24:11.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CheckoutSuccess.jsx",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\pages\\CheckoutSuccess.jsx",
+              "RelativeDocumentMoniker": "OrderManagement\\ClientApp\\src\\pages\\CheckoutSuccess.jsx",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\pages\\CheckoutSuccess.jsx",
+              "RelativeToolTip": "OrderManagement\\ClientApp\\src\\pages\\CheckoutSuccess.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-22T08:06:22.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CheckoutCancel.jsx",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\pages\\CheckoutCancel.jsx",
+              "RelativeDocumentMoniker": "OrderManagement\\ClientApp\\src\\pages\\CheckoutCancel.jsx",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\pages\\CheckoutCancel.jsx",
+              "RelativeToolTip": "OrderManagement\\ClientApp\\src\\pages\\CheckoutCancel.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-22T08:06:53.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\DTOs\\OrderDto.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\DTOs\\OrderDto.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\DTOs\\OrderDto.cs",
+              "RelativeToolTip": "OrderManagement\\DTOs\\OrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:12:11.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Register.jsx",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\pages\\Register.jsx",
+              "RelativeDocumentMoniker": "OrderManagement\\ClientApp\\src\\pages\\Register.jsx",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\pages\\Register.jsx",
+              "RelativeToolTip": "OrderManagement\\ClientApp\\src\\pages\\Register.jsx",
+              "ViewState": "AgIAALMAAAAAAAAAAAAAwLgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-18T08:17:00.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CustomerDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\DTOs\\CustomerDtos.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\DTOs\\CustomerDtos.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\DTOs\\CustomerDtos.cs",
+              "RelativeToolTip": "OrderManagement\\DTOs\\CustomerDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T10:00:17.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AuthenticationDto.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\DTOs\\AuthenticationDto.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\DTOs\\AuthenticationDto.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\DTOs\\AuthenticationDto.cs",
+              "RelativeToolTip": "OrderManagement\\DTOs\\AuthenticationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T09:59:44.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "MenuItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\DTOs\\MenuItemDto.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\DTOs\\MenuItemDto.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\DTOs\\MenuItemDto.cs",
+              "RelativeToolTip": "OrderManagement\\DTOs\\MenuItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T15:26:43.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CreateOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\DTOs\\CreateOrderDto.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\DTOs\\CreateOrderDto.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\DTOs\\CreateOrderDto.cs",
+              "RelativeToolTip": "OrderManagement\\DTOs\\CreateOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T15:27:21.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "OrderManagement",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\OrderManagement.csproj",
+              "RelativeDocumentMoniker": "OrderManagement\\OrderManagement.csproj",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\OrderManagement.csproj",
+              "RelativeToolTip": "OrderManagement\\OrderManagement.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-20T10:57:13.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RestaurantService.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Services\\RestaurantService.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Services\\RestaurantService.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Services\\RestaurantService.cs",
+              "RelativeToolTip": "OrderManagement\\Services\\RestaurantService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T15:56:12.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Restaurant.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Models\\Restaurant.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Models\\Restaurant.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Models\\Restaurant.cs",
+              "RelativeToolTip": "OrderManagement\\Models\\Restaurant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T15:30:34.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IMenuItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Repositories\\IMenuItemRepository.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Repositories\\IMenuItemRepository.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Repositories\\IMenuItemRepository.cs",
+              "RelativeToolTip": "OrderManagement\\Repositories\\IMenuItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T15:28:53.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "OrderItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\DTOs\\OrderItemDto.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\DTOs\\OrderItemDto.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\DTOs\\OrderItemDto.cs",
+              "RelativeToolTip": "OrderManagement\\DTOs\\OrderItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T15:27:05.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Models\\MenuItem.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Models\\MenuItem.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Models\\MenuItem.cs",
+              "RelativeToolTip": "OrderManagement\\Models\\MenuItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T15:23:06.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "status.js",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\utils\\status.js",
+              "RelativeDocumentMoniker": "OrderManagement\\ClientApp\\src\\utils\\status.js",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\utils\\status.js",
+              "RelativeToolTip": "OrderManagement\\ClientApp\\src\\utils\\status.js",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-17T14:39:00.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SwipeRow.jsx",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\components\\SwipeRow.jsx",
+              "RelativeDocumentMoniker": "OrderManagement\\ClientApp\\src\\components\\SwipeRow.jsx",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\components\\SwipeRow.jsx",
+              "RelativeToolTip": "OrderManagement\\ClientApp\\src\\components\\SwipeRow.jsx",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-17T14:28:04.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Services\\IOrderService.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Services\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\Services\\IOrderService.cs",
+              "RelativeToolTip": "OrderManagement\\Services\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T14:46:17.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "tailwind.config.js",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\tailwind.config.js",
+              "RelativeDocumentMoniker": "OrderManagement\\ClientApp\\tailwind.config.js",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\tailwind.config.js",
+              "RelativeToolTip": "OrderManagement\\ClientApp\\tailwind.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-15T08:30:47.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UI.jsx",
+              "DocumentMoniker": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\components\\UI.jsx",
+              "RelativeDocumentMoniker": "OrderManagement\\ClientApp\\src\\components\\UI.jsx",
+              "ToolTip": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\ClientApp\\src\\components\\UI.jsx",
+              "RelativeToolTip": "OrderManagement\\ClientApp\\src\\components\\UI.jsx",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwDkAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-15T08:30:28.406Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

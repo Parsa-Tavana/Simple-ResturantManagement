@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "6IrjPxSyXb6sIf3Vw7yxV/kMijyXY+5U81h9bE446Gc=",
+  "Source": "OrderManagement",
+  "BasePath": "_content/OrderManagement",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "OrderManagement\\wwwroot",
+      "Source": "OrderManagement",
+      "ContentRoot": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\wwwroot\\",
+      "BasePath": "_content/OrderManagement",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\wwwroot\\assets\\index-B-8Z0jds.css",
+      "SourceId": "OrderManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\wwwroot\\",
+      "BasePath": "_content/OrderManagement",
+      "RelativePath": "assets/index-B-8Z0jds.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-B-8Z0jds.css"
+    },
+    {
+      "Identity": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\wwwroot\\assets\\index-DKXpGBSK.js",
+      "SourceId": "OrderManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\wwwroot\\",
+      "BasePath": "_content/OrderManagement",
+      "RelativePath": "assets/index-DKXpGBSK.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-DKXpGBSK.js"
+    },
+    {
+      "Identity": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\wwwroot\\index.html",
+      "SourceId": "OrderManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\wwwroot\\",
+      "BasePath": "_content/OrderManagement",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

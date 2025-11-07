@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <!-- Normal project settings -->
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>d041a069-0ead-40d0-8721-f325351019f2</UserSecretsId>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <!-- SPA locations -->
+  <PropertyGroup>
+    <SpaRoot>ClientApp\</SpaRoot>
+    <SpaDist>ClientApp\dist\</SpaDist>
+  </PropertyGroup>
+
+  <!-- Build React before .NET build -->
+  <Target Name="BuildFrontend" BeforeTargets="Build" Condition="Exists('$(SpaRoot)package.json')">
+    <Exec Command="npm install" WorkingDirectory="$(SpaRoot)" />
+    <Exec Command="npm run build" WorkingDirectory="$(SpaRoot)" />
+  </Target>
+
+  <!-- Copy dist -> wwwroot AFTER build and AFTER Vite created new hashed files -->
+  <Target Name="CopyDistToWwwroot" AfterTargets="Build" Condition="Exists('$(SpaDist)')">
+    <!-- Re-evaluate the file list *now* so hashes are fresh -->
+    <ItemGroup>
+      <DistFiles Include="$(SpaDist)**\*" />
+    </ItemGroup>
+
+    <RemoveDir Directories="wwwroot" />
+    <MakeDir Directories="wwwroot" />
+    <Copy SourceFiles="@(DistFiles)" DestinationFiles="@(DistFiles->'wwwroot\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+  </Target>
+
+  <!-- Publish picks up whatever is in wwwroot without duplicating -->
+  <ItemGroup>
+    <Content Update="wwwroot\**\*" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <!-- Also copy to publish dir directly from dist to be safe -->
+  <Target Name="CopyDistToWwwrootOnPublish" AfterTargets="Publish" Condition="Exists('$(SpaDist)')">
+    <ItemGroup>
+      <DistFiles Include="$(SpaDist)**\*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(DistFiles)" DestinationFiles="@(DistFiles->'$(PublishDir)wwwroot\%(RecursiveDir)%(Filename)%(Extension)')" />
+  </Target>
+
+  <!-- Packages (Node.js NuGet not needed; VS uses system Node) -->
+  <ItemGroup>
+    <PackageReference Include="IdentityServer3.Contrib.AccessTokenValidation" Version="4.1.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.14.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+    <PackageReference Include="Stripe.net" Version="49.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+</Project>

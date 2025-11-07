@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\wwwroot\\assets\\index-B-8Z0jds.css",
+      "PackagePath": "staticwebassets\\assets\\index-B-8Z0jds.css"
+    },
+    {
+      "Id": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\wwwroot\\assets\\index-DKXpGBSK.js",
+      "PackagePath": "staticwebassets\\assets\\index-DKXpGBSK.js"
+    },
+    {
+      "Id": "C:\\Users\\Tavana\\Downloads\\OrderManagement_with_Customers_Restaurants_v2\\OrderManagement\\OrderManagement\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OrderManagement.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.OrderManagement.props",
+      "PackagePath": "build\\OrderManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.OrderManagement.props",
+      "PackagePath": "buildMultiTargeting\\OrderManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.OrderManagement.props",
+      "PackagePath": "buildTransitive\\OrderManagement.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
