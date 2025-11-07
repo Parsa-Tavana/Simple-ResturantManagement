@@ -1,0 +1,23 @@
+# Build outputs
+bin/
+obj/
+
+# Visual Studio
+.vs/
+
+# Node packages
+node_modules/
+OrderManagement/ClientApp/node_modules/
+
+# Logs and local data
+*.log
+*.user
+*.suo
+*.swp
+.DS_Store
+
+# Generated test coverage
+coverage/
+
+# Temporary
+OrderManagement/ClientApp/.vite/

@@ -2,32 +2,41 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using System.IdentityModel.Tokens.Jwt;
+using Microsoft.IdentityModel.Logging;
+using Microsoft.Extensions.Options;
+using OrderManagement.Configuration;
 using OrderManagement.Data;
-using Microsoft.IdentityModel.Logging; // top of file
 using OrderManagement.Models;
 using OrderManagement.Repositories;
 using OrderManagement.Services;
-using System.Text;
 using Stripe;
+using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using Microsoft.IdentityModel.Logging;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Allow downstream code (UserManager, controllers) to read JWT claims without legacy remapping
+JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
+
 // OPTIONAL: show PII in token errors while debugging (remove in prod)
-IdentityModelEventSource.ShowPII = true;
+IdentityModelEventSource.ShowPII = builder.Environment.IsDevelopment();
 
 // ---------------------- Config ----------------------
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
     ?? "Server=(localdb)\\mssqllocaldb;Database=OrderMgmtDb;Trusted_Connection=True;TrustServerCertificate=True";
 
-string jwtKey = builder.Configuration["Jwt:Key"]
-    ?? throw new InvalidOperationException("Missing Jwt:Key in configuration.");
-string jwtIssuer = builder.Configuration["Jwt:Issuer"]
-    ?? throw new InvalidOperationException("Missing Jwt:Issuer in configuration.");
+var jwtSection = builder.Configuration.GetSection("Jwt");
+var jwtOptions = jwtSection.Get<JwtOptions>()
+    ?? throw new InvalidOperationException("Missing Jwt configuration section.");
 
-var signingKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey));
+if (string.IsNullOrWhiteSpace(jwtOptions.Key))
+    throw new InvalidOperationException("Missing Jwt:Key in configuration.");
+
+if (string.IsNullOrWhiteSpace(jwtOptions.Issuer))
+    throw new InvalidOperationException("Missing Jwt:Issuer in configuration.");
+
+builder.Services.Configure<JwtOptions>(jwtSection);
 StripeConfiguration.ApiKey = builder.Configuration["Stripe:SecretKey"];
 
 // ---------------------- EF Core ----------------------
@@ -45,7 +54,12 @@ builder.Services
     })
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
-IdentityModelEventSource.ShowPII = true; // dev only: show details for token errors
+
+builder.Services.AddSingleton<IJwtTokenService, JwtTokenService>();
+
+var hasAudience = !string.IsNullOrWhiteSpace(jwtOptions.Audience);
+var signingKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtOptions.Key));
+
 builder.Services
     .AddAuthentication(o =>
     {
@@ -54,19 +68,22 @@ builder.Services
     })
     .AddJwtBearer(o =>
     {
-        o.RequireHttpsMetadata = true;
+        o.RequireHttpsMetadata = !builder.Environment.IsDevelopment();
         o.SaveToken = true;
         o.TokenValidationParameters = new TokenValidationParameters
         {
             ValidateIssuer = true,
-            ValidIssuer = jwtIssuer,
+            ValidIssuer = jwtOptions.Issuer,
 
-            ValidateAudience = false,
+            ValidateAudience = hasAudience,
+            ValidAudience = hasAudience ? jwtOptions.Audience : null,
             ValidateIssuerSigningKey = true,
             IssuerSigningKey = signingKey,
 
             ValidateLifetime = true,
-            ClockSkew = TimeSpan.FromMinutes(2)
+            ClockSkew = TimeSpan.FromMinutes(Math.Max(0, jwtOptions.ClockSkewMinutes)),
+            NameClaimType = ClaimTypes.Name,
+            RoleClaimType = ClaimTypes.Role
         };
 
         // --- HARDENED extraction & diagnostics ---
@@ -169,12 +186,21 @@ app.UseAuthorization();
 app.MapControllers();
 
 // quick config echo
-app.MapGet("/_diag/jwt-config", (IConfiguration cfg) =>
+app.MapGet("/_diag/jwt-config", (IOptions<JwtOptions> optionsAccessor) =>
 {
-    var issuer = cfg["Jwt:Issuer"] ?? "(null)";
-    var key = cfg["Jwt:Key"] ?? "(null)";
+    var options = optionsAccessor.Value;
+    var issuer = options.Issuer ?? "(null)";
+    var audience = string.IsNullOrWhiteSpace(options.Audience) ? "(not configured)" : options.Audience;
+    var key = options.Key ?? "(null)";
     var key6 = key == "(null)" ? "(null)" : (key.Length >= 6 ? key[..6] : "(short)");
-    return Results.Json(new { issuer, key6 });
+    return Results.Json(new
+    {
+        issuer,
+        audience,
+        key6,
+        accessTokenMinutes = options.AccessTokenMinutes,
+        clockSkewMinutes = options.ClockSkewMinutes
+    });
 }).AllowAnonymous();
 
 app.MapFallbackToFile("/index.html");
@@ -186,6 +212,8 @@ using (var scope = app.Services.CreateScope())
 }
 
 app.Run();
+
+public partial class Program { }
 
 public class RoleSeeder
 {

@@ -1,13 +1,18 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using OrderManagement.DTOs;
 using OrderManagement.Models;
 using System.IdentityModel.Tokens.Jwt;
+using System.Collections.Generic;
+using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer; // <-- for scheme name
+using OrderManagement.Configuration;
+using OrderManagement.Services;
 
 namespace OrderManagement.Controllers
 {
@@ -17,13 +22,19 @@ namespace OrderManagement.Controllers
     {
         private readonly UserManager<ApplicationUser> _users;
         private readonly SignInManager<ApplicationUser> _signIn;
-        private readonly IConfiguration _cfg;
+        private readonly IJwtTokenService _tokenService;
+        private readonly IOptionsSnapshot<JwtOptions> _jwtOptions;
 
-        public AuthController(UserManager<ApplicationUser> users, SignInManager<ApplicationUser> signIn, IConfiguration cfg)
+        public AuthController(
+            UserManager<ApplicationUser> users,
+            SignInManager<ApplicationUser> signIn,
+            IJwtTokenService tokenService,
+            IOptionsSnapshot<JwtOptions> jwtOptions)
         {
             _users = users;
             _signIn = signIn;
-            _cfg = cfg;
+            _tokenService = tokenService;
+            _jwtOptions = jwtOptions;
         }
 
         [AllowAnonymous]
@@ -84,12 +95,12 @@ namespace OrderManagement.Controllers
             if (!ok.Succeeded) return Unauthorized("Invalid credentials");
 
             var roles = await _users.GetRolesAsync(user);
-            var token = GenerateJwt(user, roles, out var expiresAt);
+            var tokenResult = _tokenService.CreateToken(user, roles);
 
             return Ok(new
             {
-                token,
-                expiresAt,
+                token = tokenResult.Token,
+                expiresAt = tokenResult.ExpiresAtUtc,
                 roles,
                 email = user.Email,
                 customerId = user.CustomerId,
@@ -138,7 +149,7 @@ namespace OrderManagement.Controllers
         // ===== Debug (no validation) =====
         [AllowAnonymous]
         [HttpGet("me-debug")]
-        public IActionResult MeDebug([FromServices] IConfiguration cfg)
+        public IActionResult MeDebug()
         {
             var tokenStr = ReadBearerOrBadRequest();
             if (tokenStr is null) return BadRequest(new { message = "Missing or malformed Authorization header. Expected: Bearer <token>" });
@@ -148,7 +159,9 @@ namespace OrderManagement.Controllers
                 var handler = new JwtSecurityTokenHandler();
                 var jwt = handler.ReadJwtToken(tokenStr);
                 var exp = jwt.Payload.Exp.HasValue ? DateTimeOffset.FromUnixTimeSeconds(jwt.Payload.Exp.Value) : (DateTimeOffset?)null;
-                var expectedIssuer = cfg["Jwt:Issuer"] ?? "(null)";
+                var options = _jwtOptions.Value;
+                var expectedIssuer = options.Issuer ?? "(null)";
+                var expectedAudience = string.IsNullOrWhiteSpace(options.Audience) ? "(not configured)" : options.Audience;
 
                 return Ok(new
                 {
@@ -159,6 +172,7 @@ namespace OrderManagement.Controllers
                     {
                         tokenIssuer = jwt.Issuer,
                         expectedIssuer,
+                        expectedAudience,
                         subject = jwt.Subject,
                         nameId = jwt.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value,
                         email = jwt.Claims.FirstOrDefault(c => c.Type == JwtRegisteredClaimNames.Email)?.Value
@@ -166,7 +180,8 @@ namespace OrderManagement.Controllers
                         roles = jwt.Claims.Where(c => c.Type == ClaimTypes.Role).Select(c => c.Value).ToArray(),
                         expUtc = exp?.UtcDateTime.ToString("O"),
                         nowUtc = DateTimeOffset.UtcNow.UtcDateTime.ToString("O"),
-                        isExpired = exp.HasValue && DateTimeOffset.UtcNow > exp.Value
+                        isExpired = exp.HasValue && DateTimeOffset.UtcNow > exp.Value,
+                        configuredLifetimeMinutes = options.AccessTokenMinutes
                     }
                 });
             }
@@ -185,21 +200,24 @@ namespace OrderManagement.Controllers
             if (tokenStr is null)
                 return BadRequest(new { message = "Missing or malformed Authorization header. Expected: Bearer <token>" });
 
-            var issuer = (_cfg["Jwt:Issuer"] ?? "").Trim();
-            var keyStr = (_cfg["Jwt:Key"] ?? "").Trim();
+            var options = _jwtOptions.Value;
+            var issuer = (options.Issuer ?? "").Trim();
+            var keyStr = (options.Key ?? "").Trim();
+            var hasAudience = !string.IsNullOrWhiteSpace(options.Audience);
 
             var parms = new TokenValidationParameters
             {
                 ValidateIssuer = true,
                 ValidIssuer = issuer,
 
-                ValidateAudience = false,
+                ValidateAudience = hasAudience,
+                ValidAudience = hasAudience ? options.Audience : null,
 
                 ValidateIssuerSigningKey = true,
                 IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(keyStr)),
 
                 ValidateLifetime = true,
-                ClockSkew = TimeSpan.FromMinutes(2)
+                ClockSkew = TimeSpan.FromMinutes(Math.Max(0, options.ClockSkewMinutes))
             };
 
             try
@@ -234,12 +252,21 @@ namespace OrderManagement.Controllers
 
         [AllowAnonymous]
         [HttpGet("config-snapshot")]
-        public IActionResult ConfigSnapshot([FromServices] IConfiguration cfg)
+        public IActionResult ConfigSnapshot()
         {
-            var issuer = (cfg["Jwt:Issuer"] ?? "(null)").Trim();
-            var key = (cfg["Jwt:Key"] ?? "(null)").Trim();
+            var options = _jwtOptions.Value;
+            var issuer = (options.Issuer ?? "(null)").Trim();
+            var audience = string.IsNullOrWhiteSpace(options.Audience) ? "(not configured)" : options.Audience.Trim();
+            var key = (options.Key ?? "(null)").Trim();
             var key6 = key == "(null)" ? "(null)" : (key.Length >= 6 ? key[..6] : "(short)");
-            return Ok(new { issuer, key6 });
+            return Ok(new
+            {
+                issuer,
+                audience,
+                key6,
+                accessTokenMinutes = options.AccessTokenMinutes,
+                clockSkewMinutes = options.ClockSkewMinutes
+            });
         }
 
         // ----------------------------------------------------------------
@@ -252,37 +279,5 @@ namespace OrderManagement.Controllers
             return auth.Substring("Bearer ".Length).Trim();
         }
 
-        private string GenerateJwt(ApplicationUser user, IList<string> roles, out DateTime expiresAtUtc)
-        {
-            var issuer = (_cfg["Jwt:Issuer"]
-                ?? throw new InvalidOperationException("Missing Jwt:Issuer in configuration.")).Trim();
-
-            var keyStr = (_cfg["Jwt:Key"]
-                ?? throw new InvalidOperationException("Missing Jwt:Key in configuration.")).Trim();
-
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(keyStr));
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-
-            var claims = new List<Claim>
-            {
-                new Claim(JwtRegisteredClaimNames.Sub, user.Id),
-                new Claim(ClaimTypes.NameIdentifier, user.Id),        // required for UserManager
-                new Claim(JwtRegisteredClaimNames.Email, user.Email ?? ""),
-                new Claim(ClaimTypes.Name, user.UserName ?? user.Email ?? "")
-            };
-            foreach (var r in roles) claims.Add(new Claim(ClaimTypes.Role, r));
-
-            expiresAtUtc = DateTime.UtcNow.AddHours(8);
-
-            var token = new JwtSecurityToken(
-                issuer: issuer,
-                audience: null,
-                claims: claims,
-                expires: expiresAtUtc,
-                signingCredentials: creds
-            );
-
-            return new JwtSecurityTokenHandler().WriteToken(token);
-        }
     }
 }
